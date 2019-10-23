@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RFID.master.cs" Inherits="WebApplication4.RFID" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 617px;
+        }
+        .style3
+        {
+            height: 29px;
+        }
+        .style4
+        {
+            height: 90px;
+            }
+        .style9
+        {
+            width: 99%;
+            height: 364px;
+        }
+        .style10
+        {
+            width: 294px;
+        }
+        .style11
+        {
+            color: #FFFFFF;
+            font-family: "Eras Bold ITC";
+        }
+        .style12
+        {
+            height: 29px;
+            width: 329px;
+        }
+        .style13
+        {
+            width: 158px;
+        }
+    </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <table class="style1">
+            
+                <tr>
+                    <td class="style12" bgcolor="#4ABDAC">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                        <asp:Image ID="Image1" runat="server" Height="195px" 
+                            ImageUrl="~/product-overview-time-attendace.png" Width="238px" />
+                        
+                    </td>
+                    <td class="style3" bgcolor="#4ABDAC">
+                    <h1>
+                            <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                            <span class="style11"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RFID BASED ATTENDANCE SYSTEM&nbsp;&nbsp; </em></span></strong></h1>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style4" bgcolor="#4ABDAC" colspan="2">
+                        <table class="style9">
+                            <tr>
+                                <td class="style13">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <asp:Button ID="Button1" runat="server" BackColor="#F7B733" ForeColor="White" 
+                                        Height="46px" style="font-weight: 700; font-style: italic" Text="HOME" 
+                                        Width="233px" />
+                                </td>
+                                <td class="style10" rowspan="4">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style13">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <asp:Button ID="Button2" runat="server" BackColor="#F7B733" ForeColor="White" 
+                                        Height="46px" style="font-weight: 700; font-style: italic" Text="LOGIN" 
+                                        Width="237px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="style13">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <asp:Button ID="Button3" runat="server" BackColor="#F7B733" ForeColor="White" 
+                                        Height="46px" style="font-weight: 700; font-style: italic" Text="ABOUT US" 
+                                        Width="234px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="style13">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <asp:Button ID="Button4" runat="server" BackColor="#F7B733" ForeColor="White" 
+                                        Height="46px" style="font-weight: 700; font-style: italic" Text="CONTACT " 
+                                        Width="234px" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+               
+               
+            </table>
+        </asp:ContentPlaceHolder>
+    </form>
+ </body>
+</html>
